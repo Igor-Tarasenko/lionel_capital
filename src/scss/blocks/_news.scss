@@ -1,0 +1,47 @@
+.news {
+	margin-top: 40px;
+	position: relative;
+	background: #f1f7f5;
+	padding-top: 25px;
+	padding-bottom: 37px;
+	.left-line, .right-line {
+		top: 48px;
+	}
+	.news-item {
+		position: relative;
+		text-align: left;
+		margin-top: 60px;
+		p {
+			font-size: 18px;
+			color: $black-color;
+			&:first-child {
+				font-size: 14px;
+			}
+		}
+		.subdivision {
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 0 8px;
+			min-width: 165px;
+			background: #c7a254;
+			text-align: center;
+			p {
+				font-family: $bold-font;
+				color: $white-color;
+				font-size: 16px;
+			}
+		}
+		&:first-child {
+			margin-top: 25px;
+		}
+		&:hover {
+			h4 {
+				color: $gold-color;
+			}
+		}
+	}
+	.link {
+		color: $green-color;
+	}
+}

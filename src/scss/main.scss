@@ -1,0 +1,79 @@
+@import 'libs';
+@import 'fonts';
+// colors
+$white-color: #ffffff;
+$black-color: #000000;
+$gold-color: #c7a254;
+$green-color: #193e2e;
+
+// fonts
+$regular-font: 'VollcornReg', sans-serif;
+$bold-font: 'VollcornBold', sans-serif;
+
+html {
+  	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+	background: $white-color;
+	font-family: $regular-font;
+}
+h1 {
+	font-family: $regular-font;
+	font-size: 43px;
+	color: $green-color;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	text-align: left;
+	padding-bottom: 30px;
+	border-bottom: 1px solid $green-color;
+}
+h2 {
+	font-family: $regular-font;
+	font-size: 36px;
+	color: $green-color;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+h3 {
+	font-family: $regular-font;
+	font-size: 36px;
+	color: $white-color;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: left;
+}
+h4 {
+	font-family: $bold-font;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 10px 0 15px 0;
+	color: $black-color;
+	padding-bottom: 15px;
+	border-bottom: 1px solid $green-color;
+	transition: .3s ease;
+}
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 0;
+}
+
+@import 'index';

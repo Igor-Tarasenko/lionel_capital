@@ -1,0 +1,96 @@
+.dividends {
+	margin-top: 40px;
+	position: relative;
+	.description {
+		p {
+			color: $black-color;
+			font-size: 18px;
+			&:last-child {
+				margin-top: 40px;
+				border-top: 1px solid $green-color;
+				padding-top: 40px;
+			}
+		}
+	}
+	.lion-img {
+		background: url("../img/small-lion.png") no-repeat center;
+		width: 100%;
+		background-size: contain;
+		height: 495px;
+	}
+	a {
+		display: block;
+		text-align: center;
+		text-decoration: underline;
+		color: $green-color;
+		cursor: pointer;
+		margin-top: 25px;
+	}
+	.special-offers {
+		border: 1px solid #bacac4;
+		margin-top: 20px;
+		&:first-child {
+			margin-top: 0;
+		}
+		.offer {
+			border: 2px solid transparent;
+			transition: .3s ease;
+			padding: 15px;
+			&:hover {
+				border: 2px solid #bacac4;
+				.link-block a {
+					background: #d49b22;
+				}
+			}
+			p {
+				font-size: 16px;
+				color: $black-color;
+			}
+			.offer-title {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: center;
+				p {
+					font-size: 22px;
+					text-transform: uppercase;
+					&:last-child {
+						color: $gold-color;
+						font-size: 18px;
+						font-family: $bold-font;
+						margin-top: 15px;
+					}
+				}
+			}
+			.link-block {
+				display: flex;
+				align-items: center;
+				padding: 0;
+				a {
+					color: #ffffff;
+					font-family: $bold-font;
+					font-size: 18px;
+					display: block;
+					background: #c7a254;
+					padding: 11px 21px;
+					transition: .3s ease;
+					text-decoration: none;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+.left-line, .right-line {
+	position: absolute;
+	background: url("../img/line.png") no-repeat;
+	width: 585px;
+	height: 3px;
+	top: 23px;
+}
+.left-line {
+	left: 38px;
+}
+.right-line {
+	right: 38px;
+}

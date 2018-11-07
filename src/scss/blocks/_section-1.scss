@@ -1,0 +1,35 @@
+.section-1 {
+	background: url("../img/bg.png") no-repeat top;
+	width: 100%;
+	padding-top: 44px;
+	.features {
+		padding: 13px 0;
+		border: 1px solid #bacac4;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #ffffff;
+		p {
+			color: $green-color;
+			font-size: 16px;
+			transition: .3s ease;
+		}
+	}
+	.item {
+		border-right: 1px solid #bacac4;
+		text-align: center;
+		padding: 19px 66px;
+		img {
+			margin-bottom: 25px;
+		}
+		&:last-child {
+			border-right: 0;
+		}
+		&:hover {
+			p {
+				color: $gold-color;
+			}
+		}
+	}
+}

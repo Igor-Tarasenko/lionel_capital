@@ -1,0 +1,43 @@
+.trading-training {
+	margin-top: 40px;
+	position: relative;
+	p {
+		font-size: 18px;
+		color: $black-color;
+		span {
+			font-family: $bold-font;
+			font-size: 18px;
+		}
+	}
+	.description {
+		p {
+			&:last-child {
+				font-family: $bold-font;
+				margin-top: 15px;
+			}
+		}
+	}
+	.format {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+	.item {
+		text-align: center;
+		width: 160px;
+		img {
+			margin-bottom: 30px;
+			height: 81px;
+		}
+		p {
+			font-size: 16px;
+			color: $black-color;
+			font-family: $regular-font;
+		}
+	}
+	.link {
+		color: $green-color;
+	}
+}

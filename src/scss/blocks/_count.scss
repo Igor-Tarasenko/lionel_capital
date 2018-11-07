@@ -1,0 +1,93 @@
+.count {
+	margin-top: 40px;
+	position: relative;
+	background: url("../img/square.png");
+	padding-top: 40px;
+	padding-bottom: 36px;
+	h2 {
+		color: $gold-color;
+	}
+	.left-line, .right-line {
+		top: 60px;
+	}
+	p {
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		color: $white-color;
+	}
+	.type {
+		padding: 41px 24px 30px 13px;
+		margin-top: 40px;
+		background: #ffffff;
+		border: 2px solid $gold-color;
+		position: relative;
+		overflow: hidden;
+		p {
+			font-size: 24px;
+			text-transform: uppercase;
+			color: $black-color;
+			text-align: left;
+			margin-left: 30px;
+			position: relative;
+			z-index: 15;
+		}
+		a {
+			text-align: center;
+			background: #c7a254;
+			color: #ffffff;
+			font-family: $bold-font;
+			font-size: 18px;
+			padding: 12px 32px;
+			margin-left: 20px;
+			transition: .3s ease;
+			&:hover {
+				background: #d49b22;
+			}
+		}
+	}
+	.silver, .gold, .platinum, .bitcoin {
+		background: url("../img/silver.png") no-repeat;
+		width: 285px;
+		height: 286px;
+		position: absolute;
+		top: -140px;
+		left: -46px;
+		z-index: 0;
+	}
+	.gold {
+		background: url("../img/gold.png") no-repeat;
+	}
+	.platinum {
+		background: url("../img/platinum.png") no-repeat;
+	}
+	.bitcoin {
+		background: url("../img/bitcoin.png") no-repeat;
+	}
+	ul {
+		margin-top: 100px;
+		padding-left: 0;
+		list-style-type: none;
+		margin-bottom: 30px;
+		li {
+			background: url("../img/list.png") no-repeat;
+			background-position: 0px 3px;
+			font-size: 16px;
+			color: $black-color;
+			padding-left: 27px;
+			margin-top: 15px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+	.link {
+		color: $gold-color;
+	}
+}
+.link {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 18px;
+	margin-top: 30px;
+}
