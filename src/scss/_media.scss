@@ -7,6 +7,13 @@
 	.left-line, .right-line {
 		width: 400px;
 	}
+	.section-1_defend {
+		height: 319px;
+		background-size: cover;
+	}
+	.section-1_defend h1 {
+		margin-top: 122px;
+	}
 }
 @media screen and (max-width: 1450px) {
 	.left-line, .right-line {
@@ -251,6 +258,9 @@
 	footer .footer-dop-menu ul li {
 		font-size: 13px;
 	}
+	.section-2_defend p {
+		font-size: 16px;
+	}
 }
 @media screen and (max-width: 891px) {
 	h2 {
@@ -445,6 +455,23 @@
 	}
 	header .call-me-block {
 		display: none;
+	}
+	.section-1_defend {
+		height: 200px;
+		h1 {
+			font-size: 30px;
+			margin-top: 75px;
+		}
+	}
+	.section-2_defend p {
+		font-size: 14px;
+	}
+	.model-work_defend p {
+		font-size: 14px;
+	}
+	.model-work_defend {
+		margin-top: 45px;
+		margin-bottom: 45px;
 	}
 }
 @media screen and (max-width: 507px) {
