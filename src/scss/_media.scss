@@ -8,12 +8,12 @@
 		width: 400px;
 	}
 	.section-1_defend, .section-1_instruments, .section-1_awards,
-	.section-1_learning, .section-1_about {
+	.section-1_learning, .section-1_about, .section-1_platform {
 		height: 319px;
 		background-size: cover;
 	}
 	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1,
-	.section-1_learning h1, .section-1_about h1 {
+	.section-1_learning h1, .section-1_about h1, .section-1_platform h1 {
 		margin-top: 122px;
 	}
 }
@@ -525,7 +525,7 @@
 		display: none;
 	}
 	.section-1_defend, .section-1_instruments, .section-1_awards,
-	.section-1_learning, .section-1_about {
+	.section-1_learning, .section-1_about, .section-1_platform, .section-1_platform {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -544,6 +544,12 @@
 		margin-bottom: 45px;
 	}
 	.section-3_our-awards .awards-item .awards-description p {
+		font-size: 14px;
+	}
+	.section-3_platform .platform-text p:first-child {
+		font-size: 16px;
+	}
+	.section-3_platform .platform-text p {
 		font-size: 14px;
 	}
 }
