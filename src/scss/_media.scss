@@ -7,11 +7,11 @@
 	.left-line, .right-line {
 		width: 400px;
 	}
-	.section-1_defend, .section-1_instruments, .section-1_awards {
+	.section-1_defend, .section-1_instruments, .section-1_awards, .section-1_learning {
 		height: 319px;
 		background-size: cover;
 	}
-	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1 {
+	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1, .section-1_learning h1 {
 		margin-top: 122px;
 	}
 }
@@ -76,7 +76,7 @@
 	.trading-training p {
 		font-size: 16px;
 	}
-	.ready .ready-block {
+	.ready .ready-block, .ready-2 .ready-block {
 		padding-top: 26px;
 	}
 	header .header-title p {
@@ -101,10 +101,10 @@
 	h3 {
 		font-size: 30px;
 	}
-	.ready .ready-block p {
+	.ready .ready-block p, .ready-2 .ready-block p {
 		font-size: 16px;
 	}
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		font-size: 16px;
 		padding: 12px 35px;
 	}
@@ -232,11 +232,11 @@
 		font-size: 22px;
 		margin-bottom: 0px;
 	}
-	.ready .ready-block {
+	.ready .ready-block, .ready-2 .ready-block {
 		height: 196px;
 		padding-top: 15px;
 	}
-	.ready .ready-block p {
+	.ready .ready-block p, .ready-2 .ready-block p {
 		font-size: 14px;
 	}
 	.ready .ready-block a {
@@ -244,6 +244,9 @@
 		padding: 10px 17px;
 		margin-right: 15px;
 		margin-top: 15px;
+	}
+	.ready-2 .ready-block a {
+		margin-top: 50px;
 	}
 	footer .footer-menu ul li {
 		font-size: 13px;
@@ -270,6 +273,30 @@
 	}
 	.section-3_our-awards .awards-item .awards-description p {
 		font-size: 15px;
+	}
+	.section-3_learning .learning-item_text p:first-child {
+		font-size: 16px;
+	}
+	.section-3_learning .learning-item_text p {
+		font-size: 14px;
+	}
+	.section-3_learning .learning-item a {
+		font-size: 14px;
+		padding: 11px 10px;
+	}
+	.section-4_base .base-course p:first-child {
+		font-size: 30px;
+	}
+	.section-4_base .base-course p {
+		font-size: 15px;
+	}
+	.section-4_base .base-course p:last-child {
+		font-size: 14px;
+	}
+	.section-4_base .link-btn {
+		margin: 40px auto;
+		width: 180px;
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 891px) {
@@ -355,7 +382,7 @@
 	.link {
 		font-size: 16px;
 	}
-	.ready .ready-block {
+	.ready .ready-block, .ready-2 .ready-block {
 		height: 145px;
 		padding-top: 14px;
 		text-align: right;
@@ -365,10 +392,10 @@
 		text-align: right;
 		padding: 0 0 0 100px;
 	}
-	.ready .ready-block p {
+	.ready .ready-block p, .ready-2 .ready-block p {
 		display: none;
 	}
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		margin-right: 0;
 		margin-top: 26px;
 		margin-left: 15px;
@@ -442,6 +469,12 @@
 	.section-3_our-awards .awards-item:nth-child(6) {
 		border-bottom: 1px solid $gold-color;
 	}
+	.section-3_learning .learning-block {
+		margin-top: 20px;
+	}
+	.section-4_base .base-course {
+		margin-top: 15px;
+	}
 }
 @media screen and (max-width: 575px) {
 	.count ul {
@@ -453,7 +486,7 @@
 	header .first-menu {
 		padding-right: 0;
 	}
-	.ready .ready-block {
+	.ready .ready-block, .ready-2 .ready-block {
 		height: 155px;
 	}
 	footer .footer-dop-menu {
@@ -469,7 +502,7 @@
 	header .call-me-block {
 		display: none;
 	}
-	.section-1_defend, .section-1_instruments, .section-1_awards {
+	.section-1_defend, .section-1_instruments, .section-1_awards, .section-1_learning {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -494,7 +527,7 @@
 	h3 {
 		padding: 0 0 0 72px;
 	}
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		margin-top: 17px;
 	}
 }
@@ -502,7 +535,7 @@
 	h3 {
 		padding: 0 0 0 44px;
 	}
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		padding: 7px 17px;
 	}
 	.count ul {
@@ -545,9 +578,12 @@
 	.ready .ready-block a {
 		margin-left: 8px;
 	}
+	.ready-2 .ready-block a {
+		margin-left: 0;
+	}
 }
 @media screen and (max-width: 426px) {
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		padding: 7px 7px;
 	}
 }
@@ -581,7 +617,7 @@
 	}
 }
 @media screen and (max-width: 385px) {
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		margin-top: 9px;
 	}
 	header .main-menu-block {
@@ -590,13 +626,13 @@
 	.section-1 .features p {
 		font-size: 13px;
 	}
-	.ready .ready-block {
+	.ready .ready-block, .ready-2 .ready-block {
 		height: 102px;
 	}
 	h3 {
 		padding: 0 0 0 0px;
 	}
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		padding: 7px 2px;
 	}
 	.ready .ready-block a:first-child {
@@ -619,12 +655,12 @@
 	.count .type a {
 		margin-left: 24%;
 	}
-	.ready .ready-block {
+	.ready .ready-block, .ready-2 .ready-block {
 		padding-top: 9px;
 	}
 }
 @media screen and (max-width: 354px) {
-	.ready .col-12 {
+	.ready .col-12, .ready-2 .col-12 {
 		padding: 0;
 	}
 	header .first-menu ul li {
@@ -634,7 +670,7 @@
 	header .main-menu-block {
 		margin-top: -40px;
 	}
-	.ready .ready-block a {
+	.ready .ready-block a, .ready-2 .ready-block a {
 		margin-left: 6px;
 	}
 	h3 {
