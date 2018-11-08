@@ -1,0 +1,85 @@
+.section-1_about {
+	background: url("../img/about-bg.png") no-repeat;
+	background-size: contain;
+}
+.about-section {
+	text-align: center;
+	img {
+		margin-bottom: 30px;
+		opacity: .3;
+	}
+	.about-section_description {
+		p {
+			font-size: 18px;
+			color: $black-color;
+			&:first-child {
+				padding-bottom: 35px;
+				margin-bottom: 35px;
+				border-bottom: 1px solid $green-color;
+			}
+		}
+	}
+}
+.section-3_about {
+	position: relative;
+	margin-top: 65px;
+	margin-bottom: -36px;
+	background: url("../img/giant-lion.png") no-repeat -37px 50px;
+	height: 1461px;
+	.base-course-block {
+		background: rgba(255, 255, 255, 0.8);
+	}
+	.base-course {
+		&:nth-child(1) {
+			margin-top: 30px;
+		}
+		&:nth-child(2) {
+			margin-top: 100px;
+		}
+		&:nth-child(3) {
+			margin-top: 160px;
+		}
+		&:nth-child(4) {
+			margin-top: -50px;
+		}
+		&:nth-child(5) {
+			margin-top: 10px;
+		}
+		p {
+			font-family: $bold-font;
+			color: $gold-color;
+			font-size: 18px;
+			text-transform: uppercase;
+			&:first-child {
+				font-size: 36px;
+				margin-bottom: 5px;
+			}
+			&:last-child {
+				font-size: 14px;
+				color: $black-color;
+				text-transform: none;
+				font-family: $regular-font;
+				margin-top: 15px;
+			}
+		}
+	}
+	.link-block-about {
+		text-align: center;
+		margin-top: 64px;
+		a {
+			font-size: 18px;
+			font-family: $bold-font;
+			color: $white-color;
+			background: $gold-color;
+			transition: .3s ease;
+			text-align: center;
+			padding: 11px 90px;
+			&:hover {
+				background: #d49b22;
+			}
+		}
+	}
+	.ready {
+		margin-top: 64px;
+	}
+}
