@@ -7,11 +7,11 @@
 	.left-line, .right-line {
 		width: 400px;
 	}
-	.section-1_defend {
+	.section-1_defend, .section-1_instruments, .section-1_awards {
 		height: 319px;
 		background-size: cover;
 	}
-	.section-1_defend h1 {
+	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1 {
 		margin-top: 122px;
 	}
 }
@@ -258,8 +258,18 @@
 	footer .footer-dop-menu ul li {
 		font-size: 13px;
 	}
-	.section-2_defend p {
+	.section-2_defend p, .section-2_awards p {
 		font-size: 16px;
+	}
+	.section-3_instruments .instruments-for-sale p {
+		font-size: 16px;
+	}
+	.section-3_instruments .instruments-for-sale img {
+		height: 75px;
+		margin-top: 15px;
+	}
+	.section-3_our-awards .awards-item .awards-description p {
+		font-size: 15px;
 	}
 }
 @media screen and (max-width: 891px) {
@@ -429,6 +439,9 @@
 		visibility: visible;
 		opacity: 1;
 	}
+	.section-3_our-awards .awards-item:nth-child(6) {
+		border-bottom: 1px solid $gold-color;
+	}
 }
 @media screen and (max-width: 575px) {
 	.count ul {
@@ -456,14 +469,14 @@
 	header .call-me-block {
 		display: none;
 	}
-	.section-1_defend {
+	.section-1_defend, .section-1_instruments, .section-1_awards {
 		height: 200px;
 		h1 {
 			font-size: 30px;
 			margin-top: 75px;
 		}
 	}
-	.section-2_defend p {
+	.section-2_defend p, .section-2_awards p {
 		font-size: 14px;
 	}
 	.model-work_defend p {
@@ -472,6 +485,9 @@
 	.model-work_defend {
 		margin-top: 45px;
 		margin-bottom: 45px;
+	}
+	.section-3_our-awards .awards-item .awards-description p {
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 507px) {

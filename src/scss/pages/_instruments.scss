@@ -1,0 +1,49 @@
+.section-1_instruments {
+	background: url("../img/instruments.png") no-repeat;
+	background-size: contain;
+}
+.section-3_instruments {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	.instruments-for-sale {
+		padding: 47px 0;
+		border: 2px solid #c6d4cf;
+		transition: .3s ease;
+		a {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		p {
+			font-family: $bold-font;
+			text-transform: uppercase;
+			font-size: 18px;
+			color: $gold-color;
+			text-align: center;
+			transition: .3s ease;
+		}
+		img {
+			height: 90px;
+			margin-top: 30px;
+		}
+		&:hover {
+			border: 2px solid $gold-color;
+		}
+		&:last-child {
+			background: #f1f7f5;
+			a {
+				height: 100%;
+			}
+			p {
+				color: #bacac4;
+			}
+			&:hover {
+				background: #d49b22;
+				p {
+					color: $white-color;
+				}
+			}
+		}
+	}
+}
