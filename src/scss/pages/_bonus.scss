@@ -1,0 +1,33 @@
+.section-1_bonus {
+	background: url("../img/welcome-bg.png") no-repeat;
+	background-size: contain;
+}
+.border-block {
+	border-bottom: 1px solid $gold-color;
+	padding-bottom: 30px;
+}
+.bonus-block {
+	.text-block {
+		margin-top: 30px;
+		p {
+			font-size: 16px;
+			color: $black-color;
+		}
+	}
+	.dwn-btn {
+		margin-top: 30px;
+		a {
+			display: block;
+			padding: 11px 0;
+			color: $white-color;
+			text-transform: uppercase;
+			font-family: $bold-font;
+			background: $gold-color;
+			transition: .3s ease;
+			text-align: center;
+			&:hover {
+				background: #d49b22;
+			}
+		}
+	}
+}
