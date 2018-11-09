@@ -1,0 +1,29 @@
+.section-1_tranding-accounts {
+	background: url("../img/tranding-accounts.png") no-repeat;
+	background-size: contain;
+}
+.section-3-trading_accounts {
+	background: transparent;
+	h2 {
+		color: $green-color;
+	}
+	.type {
+		border: 2px solid #bacac4;
+		transition: .3s ease;
+		padding: 41px 24px 30px 24px;
+		&:hover {
+			border: 2px solid $gold-color;
+		}
+		.disabled {
+			color: #939393;
+		}
+		a {
+			padding: 12px 27px;
+			margin-left: 12px;
+		}
+	}
+	ul li {
+		background: transparent;
+		padding-left: 0;
+	}
+}
