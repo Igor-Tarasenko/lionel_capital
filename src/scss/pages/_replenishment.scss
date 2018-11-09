@@ -1,0 +1,134 @@
+.section-1_replenishment {
+	background: url("../img/replenishment.png") no-repeat;
+	background-size: contain;
+}
+.section-2_defend, .section-2_awards {
+	span {
+		font-family: $bold-font;
+	}
+}
+.section-3_replenishment {
+	position: relative;
+	margin: 60px 0;
+	p {
+		font-size: 18px;
+		text-transform: uppercase;
+		color: $black-color;
+		text-align: center;
+	}
+	.main-replenishment {
+		border: 2px solid $gold-color;
+		padding-bottom: 30px;
+		margin: 30px 0;
+		.active {
+			border-top: 3px solid $gold-color;
+			border-bottom: 3px solid $gold-color;
+			transition: .3s ease;
+		}
+	}
+	.main-replenishment-description {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 112px;
+		p {
+			font-family: $bold-font;
+			color: $gold-color;
+			text-transform: uppercase;
+			font-size: 18px;
+		}
+	}
+	.main-replenishment-text {
+		text-align: center;
+		p {
+			font-size: 16px;
+			color: $black-color;
+			text-transform: none;
+			padding: 6px 0;
+		}
+		&:nth-child(2) {
+			p {
+				text-align: left;
+			}
+		}
+	}
+	.hover-block {
+		border-top: 2px solid transparent;
+		border-bottom: 2px solid transparent;
+		transition: .3s ease;
+		padding: 5px 0;
+		cursor: pointer;
+		&:hover {
+			border-top: 2px solid $gold-color;
+			border-bottom: 2px solid $gold-color;
+		}
+		.bank-svg {
+			background: url("../img/icon_bank.svg") no-repeat center;
+		}
+		.visa-svg {
+			background: url("../img/icon_visa1.svg") no-repeat center;
+		}
+		.yandex-svg {
+			background: url("../img/icon_yandex_money.svg") no-repeat center;
+		}
+		.bitcoin-svg {
+			background: url("../img/icon_btc.svg") no-repeat center;
+			background-size: contain;
+		}
+		.ripple-svg {
+			background: url("../img/ripple.svg") no-repeat center;
+			background-size: contain;
+		}
+		.btc-cash-svg {
+			background: url("../img/bch.svg") no-repeat center;
+			background-size: contain;
+		}
+		.etherum-svg {
+			background: url("../img/eth.svg") no-repeat center;
+			background-size: contain;
+		}
+		.litecoin-svg {
+			background: url("../img/ltc.svg") no-repeat center;
+			background-size: contain;
+		}
+		.qiwi-svg {
+			background: url("../img/icon_qiwi.svg") no-repeat center;
+			background-size: contain;
+		}
+		.alfa-svg {
+			background: url("../img/icon_alfaclick.svg") no-repeat center;
+		}
+		.prom-svg {
+			background: url("../img/icon_psb.svg") no-repeat center;
+		}
+	}
+	.second-step {
+		display: flex;
+		align-items: center;
+	}
+	.link-btn {
+		display: block;
+		font-size: 18px;
+		font-family: $bold-font;
+		color: $white-color;
+		background: $gold-color;
+		transition: .3s ease;
+		text-align: center;
+		padding: 11px 0;
+		&:hover {
+			background: #d49b22;
+		}
+	}
+	.min-deposit {
+		margin-top: 60px;
+		padding-top: 30px;
+		border-top: 1px solid $gold-color;
+		p {
+			font-size: 16px;
+			color: $gold-color;
+			font-family: $bold-font;
+			text-align: center;
+			text-transform: none;
+		}
+	}
+}

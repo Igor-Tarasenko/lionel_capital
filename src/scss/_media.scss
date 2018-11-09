@@ -8,12 +8,14 @@
 		width: 400px;
 	}
 	.section-1_defend, .section-1_instruments, .section-1_awards,
-	.section-1_learning, .section-1_about, .section-1_platform {
+	.section-1_learning, .section-1_about, .section-1_platform,
+	.section-1_replenishment {
 		height: 319px;
 		background-size: cover;
 	}
 	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1,
-	.section-1_learning h1, .section-1_about h1, .section-1_platform h1 {
+	.section-1_learning h1, .section-1_about h1, .section-1_platform h1,
+	.section-1_replenishment h1 {
 		margin-top: 122px;
 	}
 }
@@ -309,6 +311,9 @@
 	.section-3_about .base-course p {
 		font-size: 16px;
 	}
+	.section-3_replenishment .hover-block {
+		height: auto;
+	}
 }
 @media screen and (max-width: 891px) {
 	h2 {
@@ -525,7 +530,8 @@
 		display: none;
 	}
 	.section-1_defend, .section-1_instruments, .section-1_awards,
-	.section-1_learning, .section-1_about, .section-1_platform, .section-1_platform {
+	.section-1_learning, .section-1_about, .section-1_platform, .section-1_platform,
+	.section-1_replenishment {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -551,6 +557,23 @@
 	}
 	.section-3_platform .platform-text p {
 		font-size: 14px;
+	}
+	.main-replenishment .commission,
+	.main-replenishment .time-processing{
+		display: none;
+	}
+	.section-3_replenishment .link-btn {
+		font-size: 14px;
+	}
+	.section-3_replenishment .second-step {
+		justify-content: center;
+		margin-bottom: 15px;
+	}
+	.section-3_replenishment .main-replenishment-description:nth-child(2) p {
+		margin-left: 38px;
+	}
+	.section-3_replenishment .hover-block .visa-svg {
+		background-size: contain;
 	}
 }
 @media screen and (max-width: 507px) {
