@@ -10,14 +10,14 @@
 	.section-1_defend, .section-1_instruments, .section-1_awards,
 	.section-1_learning, .section-1_about, .section-1_platform,
 	.section-1_replenishment, .section-1_tranding-accounts, .section-1_partnership,
-	.section-1_bonus {
+	.section-1_bonus, .section-1_forex {
 		height: 319px;
 		background-size: cover;
 	}
 	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1,
 	.section-1_learning h1, .section-1_about h1, .section-1_platform h1,
 	.section-1_replenishment h1, .section-1_tranding-accounts h1, .section-1_partnership h1,
-	.section-1_bonus h1 {
+	.section-1_bonus h1, .section-1_forex h1 {
 		margin-top: 122px;
 	}
 }
@@ -325,6 +325,18 @@
 		padding: 12px 6px;
 		margin-left: 9px;
 	}
+	.section-4_table .table-description p {
+		font-size: 17px;
+	}
+	.section-4_table .table-column p {
+		font-size: 14px;
+	}
+	.section-5_deal p {
+		font-size: 16px;
+	}
+	.cryptocurrency ul li {
+		font-size: 16px;
+	}
 }
 @media screen and (max-width: 891px) {
 	h2 {
@@ -545,7 +557,7 @@
 	.section-1_defend, .section-1_instruments, .section-1_awards,
 	.section-1_learning, .section-1_about, .section-1_platform, .section-1_platform,
 	.section-1_replenishment, .section-1_tranding-accounts, .section-1_partnership,
-	.section-1_bonus {
+	.section-1_bonus, .section-1_forex {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -588,6 +600,12 @@
 	}
 	.section-3_replenishment .hover-block .visa-svg {
 		background-size: contain;
+	}
+	.section-5_deal p {
+		font-size: 14px;
+	}
+	.cryptocurrency ul li {
+		font-size: 14px;
 	}
 }
 @media screen and (max-width: 507px) {

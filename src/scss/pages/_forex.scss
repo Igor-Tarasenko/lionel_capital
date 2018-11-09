@@ -1,0 +1,52 @@
+.section-1_about {
+	background: url("../img/about-bg.png") no-repeat;
+	background-size: contain;
+}
+.section-3_forex {
+	position: relative;
+	margin: 60px 0;
+}
+.section-4_table {
+	margin: 30px 0;
+	.table-description {
+		text-align: center;
+		border: 1px solid #bacac4;
+		p {
+			font-size: 18px;
+			font-family: $bold-font;
+			color: $gold-color;
+			text-transform: uppercase;
+			padding: 10px 0;
+		}
+	}
+	.table-column {
+		border-right: 1px solid #bacac4;
+		border-bottom: 1px solid #bacac4;
+		padding: 0;
+		p {
+			font-size: 16px;
+			text-transform: uppercase;
+			color: $black-color;
+			padding: 5px 0;
+			text-align: center;
+		}
+		&:nth-child(2), &:nth-child(6), &:nth-child(10), &:nth-child(14) {
+			border-left: 1px solid #bacac4;
+		}
+	}
+}
+.section-5_deal {
+	position: relative;
+	margin: 60px 0;
+	p {
+		font-size: 18px;
+		color: $black-color;
+		margin-bottom: 15px;
+		&:nth-child(2) {
+			font-family: $bold-font;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

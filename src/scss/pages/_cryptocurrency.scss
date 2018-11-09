@@ -1,0 +1,25 @@
+.section-1_about {
+	background: url("../img/about-bg.png") no-repeat;
+	background-size: contain;
+}
+.cryptocurrency {
+	p {
+		&:nth-child(2) {
+			color: $gold-color;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		margin-top: 10px;
+		li {
+			background: url("../img/list.png") no-repeat left top;
+			color: $black-color;
+			font-size: 18px;
+			padding-left: 30px;
+			margin-top: 15px;
+		}
+	}
+}
