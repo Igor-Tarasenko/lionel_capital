@@ -1,0 +1,26 @@
+.section-1_learning {
+	background: url("../img/learning-bg.png") no-repeat;
+	background-size: contain;
+}
+.news-pages {
+	margin: 0 0 40px 0;
+	padding: 30px 0;
+}
+.navigation {
+	margin-top: 30px;
+	text-align: center;
+	.page-numbers {
+		font-size: 16px;
+		padding: 5px;
+		color: $black-color;
+		transition: .3s ease;
+		cursor: pointer;
+		&:hover {
+			color: $gold-color;
+		}
+	}
+	.current {
+		color: $gold-color;
+		transition: .3s ease;
+	}
+}

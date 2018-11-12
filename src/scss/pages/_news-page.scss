@@ -1,0 +1,23 @@
+.section-1_learning {
+	background: url("../img/learning-bg.png") no-repeat;
+	background-size: contain;
+}
+.news-page_text {
+	margin-top: 50px;
+}
+.news-page_text-main {
+	p {
+		color: $black-color;
+		font-size: 18px;
+		&:last-child {
+			margin-top: 30px;
+		}
+	}
+}
+.news-pages_description {
+	margin: 0 0 40px 0;
+	padding: 15px 30px;
+	.news-item:first-child {
+		margin-top: 0;
+	}
+}
