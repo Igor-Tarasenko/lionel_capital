@@ -23,16 +23,14 @@
 		border-right: 1px solid #bacac4;
 		border-bottom: 1px solid #bacac4;
 		padding: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		p {
 			font-size: 16px;
 			text-transform: uppercase;
 			color: $black-color;
 			padding: 5px 0;
+			text-align: center;
 		}
-		&:nth-child(2), &:nth-child(6), &:nth-child(10), &:nth-child(14), &:nth-child(18) {
+		&:nth-child(2), &:nth-child(6), &:nth-child(10), &:nth-child(14) {
 			border-left: 1px solid #bacac4;
 		}
 	}
