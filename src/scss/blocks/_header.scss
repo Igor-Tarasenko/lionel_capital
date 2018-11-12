@@ -53,7 +53,7 @@ header {
 					border: none;
 				}
 			}
-			.active {
+			.current-lang {
 				color: $gold-color;
 			}
 		}
@@ -152,7 +152,7 @@ header {
 		margin-bottom: -17px;
 		margin-top: 12px;
 	}
-	.dropdown:hover > .dropdown-menu-block {
+	.menu-item-has-children:hover > .sub-menu {
 		visibility: visible;
 		opacity: 1;
 	}
