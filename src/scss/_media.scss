@@ -10,14 +10,20 @@
 	.section-1_defend, .section-1_instruments, .section-1_awards,
 	.section-1_learning, .section-1_about, .section-1_platform,
 	.section-1_replenishment, .section-1_tranding-accounts, .section-1_partnership,
-	.section-1_bonus, .section-1_forex {
+	.section-1_bonus, .section-1_forex, .section-1_percente-bonus, .section-1_forecasts,
+	.section-1_calendar, .section-1_akcii, .section-1_indexes, .section-1_cryptocurrency,
+	.section-1_metal, .section-1_fuel, .section-1_news, .section-1_news-page,
+	.section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural {
 		height: 319px;
 		background-size: cover;
 	}
 	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1,
 	.section-1_learning h1, .section-1_about h1, .section-1_platform h1,
 	.section-1_replenishment h1, .section-1_tranding-accounts h1, .section-1_partnership h1,
-	.section-1_bonus h1, .section-1_forex h1 {
+	.section-1_bonus h1, .section-1_forex h1, .section-1_percente-bonus h1, .section-1_forecasts h1,
+	.section-1_calendar h1, .section-1_akcii h1, .section-1_indexes h1, .section-1_cryptocurrency h1,
+	.section-1_metal h1, .section-1_fuel h1, .section-1_news h1, .section-1_news-page h1,
+	.section-1_forex h1, .section-1_testdrive-bonus h1, .section-1_agricultural h1 {
 		margin-top: 122px;
 	}
 }
@@ -272,7 +278,8 @@
 		font-size: 13px;
 	}
 	.section-2_defend p, .section-2_awards p,
-	.section-2_defend .about-section_description p {
+	.section-2_defend .about-section_description p,
+	.section-2_awards ul li {
 		font-size: 16px;
 	}
 	.section-3_instruments .instruments-for-sale p {
@@ -343,6 +350,9 @@
 	}
 	.news-pages_description {
 		margin: 40px 0;
+	}
+	.section-2_awards .link-block {
+		margin-top: 30px;
 	}
 }
 @media screen and (max-width: 891px) {
@@ -564,7 +574,10 @@
 	.section-1_defend, .section-1_instruments, .section-1_awards,
 	.section-1_learning, .section-1_about, .section-1_platform, .section-1_platform,
 	.section-1_replenishment, .section-1_tranding-accounts, .section-1_partnership,
-	.section-1_bonus, .section-1_forex {
+	.section-1_bonus, .section-1_forex, .section-1_percente-bonus, .section-1_percente-bonus,
+	.section-1_forecasts, .section-1_calendar, .section-1_akcii, .section-1_indexes,
+	.section-1_cryptocurrency, .section-1_metal, .section-1_fuel, .section-1_news,
+	.section-1_news-page, .section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -572,7 +585,8 @@
 		}
 	}
 	.section-2_defend p, .section-2_awards p,
-	.section-2_defend .about-section_description p {
+	.section-2_defend .about-section_description p,
+	.section-2_awards ul li {
 		font-size: 14px;
 	}
 	.model-work_defend p {
@@ -613,6 +627,10 @@
 	}
 	.cryptocurrency ul li {
 		font-size: 14px;
+	}
+	.section-2_awards .link-block a {
+		font-size: 16px;
+		width: 177px;
 	}
 }
 @media screen and (max-width: 507px) {
@@ -686,6 +704,9 @@
 	.ready .ready-block a, .ready-2 .ready-block a {
 		padding: 7px 7px;
 	}
+	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1, .section-1_learning h1, .section-1_about h1, .section-1_platform h1, .section-1_platform h1, .section-1_replenishment h1, .section-1_tranding-accounts h1, .section-1_partnership h1, .section-1_bonus h1, .section-1_forex h1, .section-1_percente-bonus h1, .section-1_percente-bonus h1, .section-1_forecasts h1, .section-1_calendar h1, .section-1_akcii h1, .section-1_indexes h1, .section-1_cryptocurrency h1, .section-1_metal h1, .section-1_fuel h1, .section-1_news h1, .section-1_news-page h1, .section-1_forex h1, .section-1_testdrive-bonus h1, .section-1_agricultural h1 {
+		font-size: 22px;
+	}
 }
 @media screen and (max-width: 413px) {
 	header .big-lion {
@@ -714,6 +735,10 @@
 	}
 	h3 {
 		padding: 0 0 0 11px;
+	}
+	.section-2_awards .link-block a {
+		font-size: 14px;
+		width: 147px;
 	}
 }
 @media screen and (max-width: 385px) {
@@ -781,6 +806,9 @@
 	}
 	.section-4_table .table-column p {
 		font-size: 13px;
+	}
+	.section-2_awards .link-block {
+		padding: 0 5px;
 	}
 }
 @media screen and (max-width: 320px) {

@@ -1,0 +1,11 @@
+.section-1_forecasts {
+	background: url("../img/forecasts-bg.png") no-repeat;
+	background-size: cover;
+}
+.section-2_forecasts {
+	p {
+		&:first-child {
+			margin-bottom: 0;
+		}
+	}
+}
