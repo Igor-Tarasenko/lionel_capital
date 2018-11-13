@@ -54,7 +54,9 @@ header {
 				}
 			}
 			.current-lang {
-				color: $gold-color;
+				a{
+					color: $gold-color;
+				}
 			}
 		}
 	}
