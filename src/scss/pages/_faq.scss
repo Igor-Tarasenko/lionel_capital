@@ -1,0 +1,63 @@
+.section-1_calendar {
+	background: url("../img/forecasts-bg.png") no-repeat;
+	background-size: cover;
+}
+.section-2_question {
+	position: relative;
+	margin: 40px 0;
+	.some-question {
+		margin-top: 20px;
+		h3 {
+			cursor: pointer;
+			padding: 0 30px 0 0;
+			position: relative;
+			font-family: $bold-font;
+			color: #c7a254;
+			font-size: 18px;
+			text-align: left;
+			&:after {
+				content: '';
+				background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAxNCAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwTDkuNSAxMEwxOSAwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjUgMjEpIHJvdGF0ZSgtOTApIiBzdHJva2U9IiNEMDlFNzAiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==) no-repeat right center;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				display: block;
+				width: 12px;
+				background-size: contain;
+				transform: rotate(0deg);
+				transition: .3s ease;
+
+			}
+		}
+		.transform {
+			&:after {
+				content: '';
+				background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAxNCAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwTDkuNSAxMEwxOSAwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjUgMjEpIHJvdGF0ZSgtOTApIiBzdHJva2U9IiNEMDlFNzAiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==) no-repeat right center;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				display: block;
+				width: 12px;
+				background-size: contain;
+				transform: rotate(90deg);
+				transition: .3s ease;
+			}
+		}
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	.answer {
+		display: none;
+		margin-top: 15px;
+		p {
+			font-size: 16px;
+		}
+		a {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+}
