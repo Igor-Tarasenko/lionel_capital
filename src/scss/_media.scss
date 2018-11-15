@@ -13,7 +13,7 @@
 	.section-1_bonus, .section-1_forex, .section-1_percente-bonus, .section-1_forecasts,
 	.section-1_calendar, .section-1_akcii, .section-1_indexes, .section-1_cryptocurrency,
 	.section-1_metal, .section-1_fuel, .section-1_news, .section-1_news-page,
-	.section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural {
+	.section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural, .section-1_faq {
 		height: 319px;
 		background-size: cover;
 	}
@@ -23,7 +23,8 @@
 	.section-1_bonus h1, .section-1_forex h1, .section-1_percente-bonus h1, .section-1_forecasts h1,
 	.section-1_calendar h1, .section-1_akcii h1, .section-1_indexes h1, .section-1_cryptocurrency h1,
 	.section-1_metal h1, .section-1_fuel h1, .section-1_news h1, .section-1_news-page h1,
-	.section-1_forex h1, .section-1_testdrive-bonus h1, .section-1_agricultural h1 {
+	.section-1_forex h1, .section-1_testdrive-bonus h1, .section-1_agricultural h1,
+	.section-1_faq h1 {
 		margin-top: 122px;
 	}
 }
@@ -583,7 +584,8 @@
 	.section-1_bonus, .section-1_forex, .section-1_percente-bonus, .section-1_percente-bonus,
 	.section-1_forecasts, .section-1_calendar, .section-1_akcii, .section-1_indexes,
 	.section-1_cryptocurrency, .section-1_metal, .section-1_fuel, .section-1_news,
-	.section-1_news-page, .section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural {
+	.section-1_news-page, .section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural
+	.section-1_faq {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -713,7 +715,19 @@
 	.ready .ready-block a, .ready-2 .ready-block a {
 		padding: 7px 7px;
 	}
-	.section-1_defend h1, .section-1_instruments h1, .section-1_awards h1, .section-1_learning h1, .section-1_about h1, .section-1_platform h1, .section-1_platform h1, .section-1_replenishment h1, .section-1_tranding-accounts h1, .section-1_partnership h1, .section-1_bonus h1, .section-1_forex h1, .section-1_percente-bonus h1, .section-1_percente-bonus h1, .section-1_forecasts h1, .section-1_calendar h1, .section-1_akcii h1, .section-1_indexes h1, .section-1_cryptocurrency h1, .section-1_metal h1, .section-1_fuel h1, .section-1_news h1, .section-1_news-page h1, .section-1_forex h1, .section-1_testdrive-bonus h1, .section-1_agricultural h1 {
+	.section-1_defend h1, .section-1_instruments h1,
+	.section-1_awards h1, .section-1_learning h1,
+	.section-1_about h1, .section-1_platform h1,
+	.section-1_platform h1, .section-1_replenishment h1,
+	.section-1_tranding-accounts h1, .section-1_partnership h1,
+	.section-1_bonus h1, .section-1_forex h1,
+	.section-1_percente-bonus h1, .section-1_percente-bonus h1,
+	.section-1_forecasts h1, .section-1_calendar h1,
+	.section-1_akcii h1, .section-1_indexes h1,
+	.section-1_cryptocurrency h1, .section-1_metal h1,
+	.section-1_fuel h1, .section-1_news h1,
+	.section-1_news-page h1, .section-1_forex h1,
+	.section-1_testdrive-bonus h1, .section-1_agricultural h1, .section-1_faq h1 {
 		font-size: 22px;
 	}
 }
