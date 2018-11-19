@@ -13,7 +13,8 @@
 	.section-1_bonus, .section-1_forex, .section-1_percente-bonus, .section-1_forecasts,
 	.section-1_calendar, .section-1_akcii, .section-1_indexes, .section-1_cryptocurrency,
 	.section-1_metal, .section-1_fuel, .section-1_news, .section-1_news-page,
-	.section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural, .section-1_faq {
+	.section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural,
+	.section-1_faq, .section-1_contacts {
 		height: 319px;
 		background-size: cover;
 	}
@@ -24,7 +25,7 @@
 	.section-1_calendar h1, .section-1_akcii h1, .section-1_indexes h1, .section-1_cryptocurrency h1,
 	.section-1_metal h1, .section-1_fuel h1, .section-1_news h1, .section-1_news-page h1,
 	.section-1_forex h1, .section-1_testdrive-bonus h1, .section-1_agricultural h1,
-	.section-1_faq h1 {
+	.section-1_faq h1, .section-1_contacts h1 {
 		margin-top: 122px;
 	}
 }
@@ -133,6 +134,9 @@
 	.section-3-partnership .type a {
 		font-size: 14px;
 		padding: 12px 10px;
+	}
+	.section-2_contacts .description-contact p:first-child {
+		margin-top: 20px;
 	}
 }
 @media screen and (max-width: 1150px) {
@@ -355,6 +359,9 @@
 	.section-2_awards .link-block {
 		margin-top: 30px;
 	}
+	.section-2_contacts .call-me {
+		margin-top: 50px;
+	}
 }
 @media screen and (max-width: 891px) {
 	h2 {
@@ -551,6 +558,9 @@
 	.section-2_question .answer p {
 		font-size: 14px;
 	}
+	.section-2_contacts .description-contact p:first-child {
+		margin-top: 12px;
+	}
 }
 @media screen and (max-width: 575px) {
 	.count ul {
@@ -585,7 +595,7 @@
 	.section-1_forecasts, .section-1_calendar, .section-1_akcii, .section-1_indexes,
 	.section-1_cryptocurrency, .section-1_metal, .section-1_fuel, .section-1_news,
 	.section-1_news-page, .section-1_forex, .section-1_testdrive-bonus, .section-1_agricultural
-	.section-1_faq {
+	.section-1_faq, .section-1_contacts {
 		height: 200px;
 		h1 {
 			font-size: 30px;
@@ -639,6 +649,9 @@
 	.section-2_awards .link-block a {
 		font-size: 16px;
 		width: 177px;
+	}
+	.description-contact {
+		margin-top: 40px;
 	}
 }
 @media screen and (max-width: 507px) {
@@ -727,7 +740,8 @@
 	.section-1_cryptocurrency h1, .section-1_metal h1,
 	.section-1_fuel h1, .section-1_news h1,
 	.section-1_news-page h1, .section-1_forex h1,
-	.section-1_testdrive-bonus h1, .section-1_agricultural h1, .section-1_faq h1 {
+	.section-1_testdrive-bonus h1, .section-1_agricultural h1,
+	.section-1_faq h1, .section-1_contacts h1 {
 		font-size: 22px;
 	}
 }

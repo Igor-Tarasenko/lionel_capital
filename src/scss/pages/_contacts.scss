@@ -1,0 +1,53 @@
+.section-1_contacts {
+	background: url("../img/contacts-bg.png") no-repeat;
+	background-size: cover;
+	margin-bottom: 80px;
+}
+.section-2_contacts {
+	margin-bottom: 80px;
+	.img-contacts {
+		text-align: center;
+		img {
+			opacity: .3;
+			width: 100%;
+			max-width: 255px;
+		}
+	}
+	.description-contact {
+		p {
+			font-size: 18px;
+			color: $black-color;
+			margin-bottom: 10px;
+			padding-left: 30px;
+			&:first-child {
+				font-family: $bold-font;
+				font-size: 30px;
+				color: #bacac4;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				margin-top: 47px;
+			}
+		}
+	}
+	.call-me {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		p {
+			font-family: $bold-font;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #bacac4;
+			margin-bottom: 16px;
+		}
+		a {
+			margin-top: 24px;
+			display: inline-block;
+			background: #bacac4;
+			color: #ffffff;
+			font-size: 18px;
+			text-transform: uppercase;
+			padding: 20px 40px;
+		}
+	}
+}
