@@ -9,4 +9,12 @@ $(document).ready(function(){
         $(this).find(".answer").slideDown();
         $(this).find("h3").addClass("transform");
     });
+    $(".analitics-js").click(function () {
+        $(".analitics-js").removeClass("active");
+        $(this).addClass("active");
+    });
+    $(".choose-month-dropdown .dropdown-menu .analitics-js").click(function () {
+        var textButton = $(".choose-month-dropdown .dropdown-menu").find(".active").text();
+       $(".choose-month-dropdown .btn-dropdown").text(textButton);
+    });
 });
